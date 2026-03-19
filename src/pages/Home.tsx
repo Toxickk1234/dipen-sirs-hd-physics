@@ -34,12 +34,12 @@ export const Home = () => {
               </Link>
 
               <div className="mt-16 md:mt-20">
-                <p className="text-xs font-bold tracking-widest uppercase opacity-70 mb-6 text-center md:text-left">You may have seen me in:</p>
-                <div className="flex items-center justify-center md:justify-start gap-6 sm:gap-8 opacity-80 grayscale flex-wrap">
-                  <span className="font-bold flex items-center gap-1 text-sm sm:text-base"><div className="w-3 h-3 sm:w-4 sm:h-4 bg-white rounded-sm"></div> Notion</span>
-                  <span className="font-bold flex items-center gap-1 text-sm sm:text-base"><div className="w-3 h-3 sm:w-4 sm:h-4 bg-white rounded-full"></div> mailchimp</span>
-                  <span className="font-bold flex items-center gap-1 text-sm sm:text-base">Airtable</span>
-                  <span className="font-bold flex items-center gap-1 text-sm sm:text-base">GUMROAD</span>
+                <p className="text-xs font-bold tracking-widest uppercase opacity-70 mb-6 text-center md:text-left">Preparing students for:</p>
+                <div className="flex items-center justify-center md:justify-start gap-6 sm:gap-8 opacity-80 flex-wrap">
+                  <span className="font-bold flex items-center gap-2 text-sm sm:text-base"><div className="w-3 h-3 sm:w-4 sm:h-4 bg-amber-400 rounded-sm"></div> JEE Mains & Advanced</span>
+                  <span className="font-bold flex items-center gap-2 text-sm sm:text-base"><div className="w-3 h-3 sm:w-4 sm:h-4 bg-emerald-400 rounded-full"></div> NEET</span>
+                  <span className="font-bold flex items-center gap-2 text-sm sm:text-base"><div className="w-3 h-3 sm:w-4 sm:h-4 bg-sky-400 rounded-sm"></div> Board Exams</span>
+                  <span className="font-bold flex items-center gap-2 text-sm sm:text-base"><div className="w-3 h-3 sm:w-4 sm:h-4 bg-rose-400 rounded-full"></div> Physics Olympiad</span>
                 </div>
               </div>
             </motion.div>
