@@ -21,7 +21,7 @@ export const Home = () => {
                 Physics Coaching Institute
               </div>
               <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold leading-[1.1] mb-6 tracking-tight">
-                Unlock the JEE/NEET <br className="hidden sm:block"/><span className="italic font-serif font-light text-white/90">Rank You Deserve</span>
+                Turning Physics <span className="italic font-serif font-light text-white/90">Fear</span> into Physics <span className="italic font-serif font-light text-white/90">Fun!</span>
               </h1>
               <p className="text-base sm:text-lg opacity-90 mb-8 max-w-md mx-auto md:mx-0 leading-relaxed">
                 Struggling with Physics? I help students master concepts, solve complex problems, and build confidence to easily crack board exams and competitive entrance tests.
