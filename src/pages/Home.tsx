@@ -116,13 +116,13 @@ export const Home = () => {
               },
               {
                 icon: <Mic className="w-5 h-5 text-stone-800" />,
-                title: "You freeze during interviews and forget what to say",
-                desc: "You know you're capable — but interviews make you nervous. You stumble over words, forget key points, and walk away feeling frustrated."
+                title: "You freeze during exams and forget formulas",
+                desc: "You know the concepts — but exam pressure makes your mind blank. You mix up formulas, make sign errors, and walk away knowing you could've scored more."
               },
               {
                 icon: <Target className="w-5 h-5 text-stone-800" />,
-                title: "You know you deserve better — but don't know where to start",
-                desc: "You're stuck in a job that drains you, or you're unemployed and feeling unsure. You crave direction, strategy, and someone to help you take the next step confidently."
+                title: "You know you deserve a top rank — but don't know where to start",
+                desc: "You want to crack JEE or NEET, but your school coaching feels insufficient. You crave a clear strategy, proper mentorship, and someone to guide you confidently."
               }
             ].map((item, i) => (
               <motion.div 
@@ -208,8 +208,8 @@ export const Home = () => {
                     <Award className="w-5 h-5 text-white" />
                   </div>
                   <div>
-                    <p className="font-bold text-sm">Forbes Featured</p>
-                    <p className="text-white/60 text-xs">Top Physics Faculty 2024</p>
+                    <p className="font-bold text-sm">Award Winning</p>
+                    <p className="text-white/60 text-xs">Top Physics Faculty in Agartala</p>
                   </div>
                 </div>
               </motion.div>
@@ -232,7 +232,7 @@ export const Home = () => {
               {
                 icon: <Clock className="w-6 h-6 text-[#4D718D]" />,
                 title: 'Fast Results',
-                desc: 'Most clients land their first interview within 3 weeks. My strategies are battle-tested and designed for speed.',
+                desc: 'Most students see a 20-30% improvement in their mock test scores within the first month. My strategies are battle-tested and designed for speed.',
               },
               {
                 icon: <Shield className="w-6 h-6 text-[#4D718D]" />,
@@ -242,12 +242,12 @@ export const Home = () => {
               {
                 icon: <Star className="w-6 h-6 text-[#4D718D]" />,
                 title: '4.9/5 Client Rating',
-                desc: 'Across 10,000+ coaching hours, clients consistently rate their experience at 4.9 out of 5 stars.',
+                desc: 'Across 10,000+ coaching hours, students consistently rate their experience at 4.9 out of 5 stars.',
               },
               {
                 icon: <Sparkles className="w-6 h-6 text-[#4D718D]" />,
                 title: 'Ongoing Support',
-                desc: 'Coaching doesn\'t end when the session does. Get unlimited email support so you never feel stuck between sessions.',
+                desc: 'Coaching doesn\'t end when the session does. Get unlimited WhatsApp support so you never feel stuck between classes.',
               },
             ].map((item, i) => (
               <motion.div
@@ -304,7 +304,7 @@ export const Home = () => {
               Meet Our <span className="italic font-serif font-light text-stone-500">Toppers</span>
             </h2>
             <p className="text-stone-500 text-lg max-w-2xl mx-auto leading-relaxed">
-              These incredible professionals not only landed their dream roles but also set new benchmarks for success in their industries.
+               These brilliant students not only achieved their dream ranks but also set new benchmarks for academic excellence.
             </p>
           </motion.div>
 
@@ -312,30 +312,30 @@ export const Home = () => {
             {[
               {
                 name: "Priya Sharma",
-                achievement: "Product Manager @ Google",
-                prev: "From QA Engineer",
-                quote: "The personalized coaching gave me the exact framework to tackle behavioral rounds. My dream came true!",
+                achievement: "AIR 342 — JEE Advanced",
+                prev: "From Class 11 Beginner",
+                quote: "The personalized coaching gave me the exact framework to tackle complex numericals. My IIT dream came true!",
                 img: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
               },
               {
-                name: "David Wright",
-                achievement: "Senior VPE @ Stripe",
-                prev: "From Engineering Manager",
-                quote: "The executive positioning strategies were a game changer. Landed an offer with a 50% salary bump.",
+                name: "Rahul Dey",
+                achievement: "NEET Score: 695/720",
+                prev: "From Average Student",
+                quote: "Dipen Sir's concept-first approach was a game changer. Improved my physics score by 140 marks in 6 months.",
                 img: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=400&auto=format&fit=crop",
               },
               {
                 name: "Anita Bose",
-                achievement: "UX Director @ Airbnb",
-                prev: "From Senior Designer",
-                quote: "My portfolio and interview narratives were completely transformed. I couldn't be happier.",
+                achievement: "98% in Board Exams",
+                prev: "From 72% in Class 11",
+                quote: "My understanding of physics was completely transformed. I couldn't believe my own board results!",
                 img: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=400&auto=format&fit=crop",
               },
               {
-                name: "Carlos Mendez",
-                achievement: "Data Scientist @ Meta",
-                prev: "From Analyst Level",
-                quote: "They broke down complex technical interview fears into actionable steps. Truly top tier coaching.",
+                name: "Kabir Saha",
+                achievement: "AIR 89 — JEE Mains",
+                prev: "From State Board Student",
+                quote: "Sir broke down every complex concept into actionable steps. Truly top-tier physics coaching.",
                 img: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=400&auto=format&fit=crop",
               }
             ].map((topper, i) => (
@@ -402,9 +402,9 @@ export const Home = () => {
               },
               {
                 name: "Marcus Chen",
-                role: "Executive Coach",
-                specialty: "Leadership & Negotiation",
-                desc: "Specializes in helping senior leaders transition into C-suite roles and master salary negotiation.",
+                role: "Physics Faculty",
+                specialty: "Problem Solving & Numericals",
+                desc: "Specializes in helping students master advanced numerical techniques and develop strong problem-solving intuition.",
                 img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=600&auto=format&fit=crop",
               }
             ].map((coach, i) => (

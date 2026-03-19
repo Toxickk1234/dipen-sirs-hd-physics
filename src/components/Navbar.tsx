@@ -53,7 +53,7 @@ export const Navbar = ({ theme = 'light' }: { theme?: 'light' | 'dark' }) => {
       </Link>
 
       {/* Mobile Menu Toggle */}
-      <button className="md:hidden p-2" onClick={() => setIsOpen(!isOpen)}>
+      <button className="md:hidden p-2" onClick={() => setIsOpen(!isOpen)} aria-label={isOpen ? 'Close menu' : 'Open menu'}>
         {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
       </button>
 
