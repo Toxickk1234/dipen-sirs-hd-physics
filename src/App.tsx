@@ -7,6 +7,7 @@ import { Testimonials } from './pages/Testimonials';
 import { Resources } from './pages/Resources';
 import { Contact } from './pages/Contact';
 import { Footer } from './components/Footer';
+import { WhatsAppButton } from './components/WhatsAppButton';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -32,6 +33,7 @@ export default function App() {
           </Routes>
         </main>
         <Footer />
+        <WhatsAppButton />
       </div>
     </Router>
   );
